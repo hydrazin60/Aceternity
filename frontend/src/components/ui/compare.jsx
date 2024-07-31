@@ -211,7 +211,7 @@ export const Compare = ({
         {secondImage ? (
           <motion.img
             className={cn(
-              "absolute top-0 left-0 z-[19]  rounded-2xl w-full h-full select-none",
+              "absolute top-0 left-0 z-[19]  rounded-2xl bg-black   select-none overflow-hidden h-full w-full",
               secondImageClassname
             )}
             alt="second image"
